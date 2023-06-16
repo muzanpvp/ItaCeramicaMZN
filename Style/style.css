@@ -1,0 +1,80 @@
+.produto{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.produto h3{
+    color: black;
+    font-size: 80%;
+}
+
+p {
+    font-family: "Arial", Helvetica, sans-serif;
+    text-align: justify;
+    align-items: center;
+}
+
+header{
+    background-color: #90BDFF;
+    width: 100%;
+
+}
+
+
+h2{
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #F3F3F3;
+}
+
+
+body header h1{
+    margin: 0%;
+    text-align: left;
+   font-family: "Arial", Arial, Helvetica, sans-serif;
+   align-items:initial;
+   color: white;
+}
+/*body header input{
+ border-radius: 20%;
+ height:50%;
+}
+body header button{
+border-radius: 20%;
+ color:black
+}
+*/
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+h2 a img{
+    width: 60%;
+    height: 60%;
+}
+
+body td{
+    background-color:white ;
+}
+
+
