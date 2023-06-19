@@ -1,14 +1,27 @@
 .produto{
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 100%;
-    height: auto;
+    width: 10rem;
+    height: 10rem;
     display: flex;
     flex-wrap: wrap;
+    margin: 10%;
+    padding:1rem;
 }
+
+header{
+    display:flex;
+    align-items: center;
+    flex-direction:initial;
+}
+
+
 .produto h3{
     color: black;
     font-size: 80%;
+    padding: 0em;
 }
+
+
 
 p {
     font-family: "Arial", Helvetica, sans-serif;
@@ -27,7 +40,7 @@ header{
 
 
 h2{
-    font-family: "Arial", Helvetica, sans-serif;
+    font-family: "woff2", Helvetica, sans-serif;
     font-size: 100%;
 }
 
@@ -50,34 +63,71 @@ body {
 
 
 body header h1{
-    margin: 0%;
+    margin-right: 200px;
     text-align: left;
    font-family: "Arial", Arial, Helvetica, sans-serif;
    align-items:initial;
    color: white;
+   width: 50px;
+   margin-top: 2px;
+    margin-bottom: 2px;
+ 
 }
-/*body header input{
- border-radius: 20%;
- height:50%;
-}
-body header button{
-border-radius: 20%;
- color:black
-}
-*/
+
+
 
 a{
     color:black;
     text-decoration: none;
 }
 
-h2 a img{
-    width: 60%;
-    height: 60%;
+
+
+td{
+    background-size: contain;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-spacing: 1px;
+    padding: 30px 30px 100px 0px;
+    
 }
 
-body td{
-    background-color:white ;
+
+
+
+
+
+input[type="text"] {
+    background: #f2f2f2;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    height: 10px;
+    width: 500px;
+    flex-wrap:wrap;
+  }
+
+  button {
+    background: #f2f2f2;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-display: flex;
+    text-align:justify;
+    padding: 0px 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    height: 32px;
+    margin-left: 10px;
+  }
+
+  .formulario{
+    width: 250px;
+    height: 200px;
 }
-
-
