@@ -1,78 +1,105 @@
 .produtos{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    height: auto;
-  
-    display: flex;
-    gap: 16px;
+    display:flex;
+    justify-content:center;
     flex-wrap: wrap;
+    row-gap: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.produto{
+    width: 200px;
+    height: 300px;
+    align-content:space-between;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-items:center;
+    background-color: rgba(255, 255, 255, 0.781);
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-style:normal;
+    border-radius: 5px;
+}
+
+.produto h3{
+    color:#3a3a3a;
+}
+
+.produto h2{
+    color:#3a3a3a;
 }
 
 header{
     width: 100%;
     padding:2%;
-    margin-left:45%;
     display:flex;
     align-items: center;
     flex-direction:initial;
+    justify-content: center;
+    background-color:#f5f5f5;
+    
 }
 
 p {
     font-family: "Arial", Helvetica, sans-serif;
-    text-align: justify;
-    align-items: center;
-    margin:0%;
+    text-align:start;
+    align-items:flex-start;
+    margin-left:9%;
     max-width: 50%;
 }
 
 h2{
     font-family: "woff2", Helvetica, sans-serif;
     font-size: 100%;
+    font-weight: lighter;
 }
 
 h3{
     font-family: "woff2", Helvetica, sans-serif;
     font-size: 100%;
+    font-weight: lighter;
 }
 
-
-.produto img {
-width: 200px;
+.produtos img {
+width:  200px;
 height: 200px;
-border-bottom-width: 3px;
+border-bottom-width: 2px;
 border-radius:2px;
 border-bottom-style: solid;
-border-color: #ccc;
+border-color: #dfdfdf;
+padding-bottom: 20px;
 }
 
 body {
     display: flex;
     flex-direction: column;
-   align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    text-align: center;
-    background-color: #eeeeee;
-}
 
+    justify-content:flex-start;
+    min-height: 100vh;
+    text-align:start;
+    background-color: #e2e2e2;
+    margin: 0%;
+}
 
 body header h1{
     margin-right: 200px;
     text-align: left;
-   font-family: "Arial", Arial, Helvetica, sans-serif;
-   align-items:initial;
-   color: rgba(0, 0, 0, 0.863);
-   width: 50px;
-   margin-top: 2px;
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    align-items:initial;
+    color: rgba(0, 0, 0, 0.863);
+    width: 50px;
+    margin-top: 2px;
     margin-bottom: 2px;
-    
+    margin-left: 0;
+    justify-content: center;
 }
 
 header a{
     background-color:rgba(255, 255, 255, 0); 
 }
-
-
 
 a{
     color:black;
@@ -81,35 +108,12 @@ a{
     height: auto;
 }
 
-.formulario img{
-    background-color: #ffffff00;
-}
-
-
-/*td{
-    background-size: contain;
-    border-radius: 3%;
-    width: 100%;
-    height: auto;
-    border-spacing: 1px;
-    padding: 30px 30px 100px 30px;
-    margin: 10px 10px 10px 10px;
-    flex-wrap: wrap;
-}
-*/
 body header h4{
     font-family: Arial, sans-serif;
     font-size: 15px;
     color: #000000;
     opacity: 60%;
 }
-
-/*tbody{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-*/
 
 input[type="text"] {
     background: #f2f2f2;
@@ -123,10 +127,9 @@ input[type="text"] {
     height: 10px;
     width: 500px;
     flex-wrap:wrap;
+                    }
 
-  }
-
-   .search{
+.search{
     background: #f2f2f2;
     color: #333;
     font-family: Arial, sans-serif;
@@ -139,10 +142,10 @@ input[type="text"] {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
     height: 32px;
     margin-left: 10px;
- 
-  }
+    flex-wrap: wrap;
+    }
 
-   .log{
+.log{
     color: #333;
     font-family: Arial, sans-serif;
     font-size: 15px;
@@ -150,19 +153,43 @@ input[type="text"] {
     box-shadow: #00000000;
     border: #00000000;
     padding: 0px 20px;
-  
-  }
-  .reg{
+    flex-wrap: wrap;
+    }
+.reg{
     color: #333;
     font-family: Arial, sans-serif;
     font-size: 15px;
     background: #00000000;
     box-shadow: #00000000;
     border: #00000000;
-  }
+    flex-wrap: wrap;
+    }
 
-  .formulario{
-    width: 250px;
-    height: 200px;
-    background-color: #83838300;
+.formulario a{
+    font-style: normal;
+    background-color: #00000000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+.form {
+    color: #ffffff;
 }
+
+footer{
+    width: 100%;
+    height: 200px;
+    font-size: 13px;
+    background-color: #6d6d6d;
+}
+
+.conferir {
+    font-size: 30px;
+    text-align:center;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    min-width: min-content;
+}
+
