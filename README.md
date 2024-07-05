@@ -16,6 +16,8 @@ npm i  express
 
 npm i -g nodemon
 
+npm i mysql2
+
 npm i bootstrap@5.3.3
 
 Futuramente para facilitar as coisas tentarei implementar o Docker.
