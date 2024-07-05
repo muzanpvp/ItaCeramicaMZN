@@ -16,6 +16,8 @@ npm i  express
 
 npm i -g nodemon
 
+npm i express-handlebars
+
 npm i mysql2
 
 npm i bootstrap@5.3.3
