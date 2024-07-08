@@ -1,5 +1,5 @@
 # ItaCeramicaMZN
-Projeto desenvolvido com arquitetura Clean Code para cadastro de produtos de Cerâmica. Utilizando as tecnologias Back-End: node JS, Express, Nodemon, MySQL 8.0.
+Projeto desenvolvido com arquitetura Clean Architecture para cadastro de produtos de Cerâmica. Utilizando as tecnologias Back-End: node JS, Express, Nodemon, MySQL 8.0.
 Para o Front-End: Javascript.
 Para implementar a responsividade vou utilizar o framework Bootstrap 5.3.3.
 E autenticação por enquanto estou desevolvendo utilizando a API do Google Authenticator.
