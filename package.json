@@ -2,7 +2,7 @@
   "name": "itaceramicamzn",
   "version": "1.0.0",
   "description": "projeto de cadastro de produtos de ceramica",
-  "main": "app.js",
+  "main": "/src/app.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +13,7 @@
   "keywords": [
     "crud",
     "ceramica",
-    "js",
+    "ts",
     "express",
     "node",
     "mysql",
