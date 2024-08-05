@@ -1,22 +1,21 @@
-const Express = require('express');
+const express = require('express');
 const path = require('path');
-const ServerlessHttp = require('serverless-http');
 const server = require('serverless-http');
 //const context = require('../db/db-context');
 
-const app= Express();
-const port = 5500;
+const app= express();
+const router = express.Router();
 
-// Configurar o diretório de views e o motor de visualização
-app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, '../views/Home'));
+router.get('/',(req,res)=>{
+  const data = {
+    nome: 'Layane',
+    idade: 21
+  };
+  res.json(data);
+});
 
-app.get('/',(req,res)=>{
-  res.render('home');
-})
+const handler = server(app);
 
-const handler = serverless(app);
+app.use('/.netlify/functions/app', router);
 
-app.listen(port,()=>{
-  console.log('Servidor está rodando!');
-})
+module.exports.handler = server(app);

@@ -2,14 +2,13 @@
   "name": "itaceramicamzn",
   "version": "1.0.0",
   "description": "Projeto desenvolvido com arquitetura Clean Architecture para CRUD de produtos de Cerâmica. Utilizando as tecnologias Back-End:Node JS, Express, Nodemon, MySQL 8.0.\r Para o Front-End: Bootstrap 5.3.3.",
-  "main": ".src/app.js",
+  "main": "src/app.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/app.js",
-    "build": "npm install"
+    "start": "netlify-lambda serve src",
+    "build": "netlify-lambda build src"
   },
   "keywords": [],
   "author": "Marcos Venício",
@@ -17,6 +16,7 @@
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.19.2",
+    "netlify-lambda": "^2.0.16",
     "sequelize": "^6.37.3",
     "serverless-http": "^3.2.0"
   }
